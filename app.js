@@ -37,3 +37,14 @@ if (diceGameEmailFound == 1) {
 
 }
 
+
+
+// Gioco dei dadi 
+
+// Dichiarata variabile per il numero del giocatore
+let diceGameUserNumber = Math.floor(Math.random() * (6 - 1 + 1) +1);
+console.log(diceGameUserNumber);
+
+// Dichiarata variabile per il numero dell' IA 
+let diceGameAiNumber = Math.floor(Math.random() * (6 - 1 + 1) +1);
+console.log(diceGameAiNumber);
