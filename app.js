@@ -48,3 +48,18 @@ console.log(diceGameUserNumber);
 // Dichiarata variabile per il numero dell' IA 
 let diceGameAiNumber = Math.floor(Math.random() * (6 - 1 + 1) +1);
 console.log(diceGameAiNumber);
+
+// Controllo vincitore
+if (diceGameUserNumber > diceGameAiNumber) {
+
+    alert("Hai vinto!");
+
+} else if (diceGameUserNumber < diceGameAiNumber) {
+
+    alert("Hai perso!");
+
+} else {
+
+    alert("Pareggio!")
+
+}
